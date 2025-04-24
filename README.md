@@ -18,8 +18,10 @@ Step 5 − Plot the pixel by successfully incrementing x and y coordinates accor
 
 **Program :**
 
-![Screenshot 2025-04-24 193412](https://github.com/user-attachments/assets/7c2f5d1b-cfff-490d-ab45-78de26b8e091)
-![Screenshot 2025-04-24 193358](https://github.com/user-attachments/assets/759b5aaa-0d35-454f-bf20-a86923ac3c8f)
+![Screenshot 2025-04-24 193358](https://github.com/user-attachments/assets/9815150b-5c81-4d54-a93f-bf5bf66d613b)
+![Screenshot 2025-04-24 193412](https://github.com/user-attachments/assets/1144dd18-b912-453d-aba1-b5a0408d8613)
+
+
  
 **Output :**
 Register No: 212224230009
