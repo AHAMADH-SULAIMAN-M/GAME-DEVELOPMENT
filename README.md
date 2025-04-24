@@ -17,6 +17,7 @@ Step 4 − Calculate the increment in x coordinate and y coordinate
 Step 5 − Plot the pixel by successfully incrementing x and y coordinates accordingly and complete the drawing of the line
 
 **Program :**
+
 #include "stdio.h"
 #include "conio.h"
 #include "math.h"
@@ -64,6 +65,7 @@ xend=xb;
  getch();
  return(0);
 }
+
 **Output :**
 Register No: 212224230009
 Name: AHAMADH SULAIMAN M
