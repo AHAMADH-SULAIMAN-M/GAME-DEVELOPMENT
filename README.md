@@ -18,15 +18,54 @@ Step 5 − Plot the pixel by successfully incrementing x and y coordinates accor
 
 **Program :**
 
-![Screenshot 2025-04-24 193358](https://github.com/user-attachments/assets/9815150b-5c81-4d54-a93f-bf5bf66d613b)
-![Screenshot 2025-04-24 193412](https://github.com/user-attachments/assets/1144dd18-b912-453d-aba1-b5a0408d8613)
+#include <graphics.h>
+#include <stdio.h>
+#include <math.h>
+#include <dos.h>
 
+void main( )
+{
+	float x,y,x1,y1,x2,y2,dx,dy,step;
+	int i,gd=DETECT,gm;
 
+	initgraph(&gd,&gm,"c:\\turboc3\\bgi");
+
+	printf("Enter the value of x1 and y1 : ");
+	scanf("%f%f",&x1,&y1);
+	printf("Enter the value of x2 and y2: ");
+	scanf("%f%f",&x2,&y2);
+
+	dx=abs(x2-x1);
+	dy=abs(y2-y1);
+
+	if(dx>=dy)
+		step=dx;
+	else
+		step=dy;
+
+	dx=dx/step;
+	dy=dy/step;
+
+	x=x1;
+	y=y1;
+
+	i=1;
+	while(i<=step)
+	{
+		putpixel(x,y,5);
+		x=x+dx;
+		y=y+dy;
+		i=i+1;
+		delay(100);
+	}
+
+	closegraph();
+}
  
 **Output :**
 Register No: 212224230009
 Name: AHAMADH SULAIMAN M
-![Screenshot 2025-04-23 103856](https://github.com/user-attachments/assets/7f9e8f0c-5b4e-4a42-b130-6d54754ec907)
+![image](https://github.com/user-attachments/assets/28c788a9-166a-49d4-b9e2-5289f46b0b62)
 
 
 **Result :**
